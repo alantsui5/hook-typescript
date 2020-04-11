@@ -13,6 +13,8 @@ degit https://github.com/alantsui5/CRA-reacthooks-typescript projectName
 * Animation: SCSS (still investigating other solution)
 * PWA: CRA default
 * Form: Form Hooks
+* Prettier
+* Editor Config
 * Proxy: NULL
 
 
