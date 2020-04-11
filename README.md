@@ -1,12 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-
 ## How to install this template
 ```
 degit https://github.com/alantsui5/CRA-reacthooks-typescript projectName
 ```
 
-## The Dependencies other than CRA default
+## The Dependencies other than Create React App default
 
 * Router: hookrouter
 * Async Middleware: @umijs/hooks
