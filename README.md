@@ -3,14 +3,17 @@
 degit https://github.com/alantsui5/CRA-reacthooks-typescript projectName
 ```
 
-## The Dependencies other than Create React App default
+## The Dependencies 
 
-
+* Core: React
 * Router: hook router
+* Lazy Loading: React Suspense
 * Async Middleware: @umijs/hooks (will be replaced with react-query later)
 * Styling Solution: SCSS (still evaluating other solution like JSS and Styled components)
 * Animation: SCSS (still investigating other solution)
+* PWA: CRA default
 * Proxy: NULL
+* Form: NULL
 
 ## Folder Structure
 * Ducks Pattern(Recommend by Facebook)
