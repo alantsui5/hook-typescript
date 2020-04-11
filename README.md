@@ -10,9 +10,10 @@ degit https://github.com/alantsui5/CRA-reacthooks-typescript projectName
 * Async Middleware: @umijs/hooks (will be replaced with react-query later)
 * Global State: unstated-next & react hooks (Investigating the possibilities od other solutions)
 * Styling Solution: SCSS (still evaluating other solution like JSS and Styled components)
-* Animation: SCSS (still invastigating other solution)
+* Animation: SCSS (still investigating other solution)
 * PWA: CRA default
 * Test: Jest
+* Routing Lazyload: React Suspense
 * Proxy: NULL
 
 ## Folder Structure
