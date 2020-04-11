@@ -1,8 +1,8 @@
-import GlobalHook from '../../store/store'
-import { useContainer } from 'unstated-next'
+import Store from '../../store/store'
+import { useContext } from 'react'
 
 export default () => {
-    const { userAuth } = useContainer(GlobalHook)
+    const { userAuth } = useContext(Store)
     let isLoggedin = userAuth.isLoggedin
     return { isLoggedin }
 }

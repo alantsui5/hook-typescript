@@ -2,16 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
-import GlobalHook from './store/store'
+import Store,{useGlobal} from './store/store'
 import { useRoutes } from 'hookrouter';
 import routes from './Routing';
 const Index = () => {
   const routeResult = useRoutes(routes);
+  const global = useGlobal();
   return (
     <React.StrictMode>
-      <GlobalHook.Provider>
+      <Store.Provider value={global}>
         {routeResult}
-      </GlobalHook.Provider>
+      </Store.Provider>
 
     </React.StrictMode>
   )

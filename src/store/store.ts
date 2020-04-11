@@ -1,13 +1,14 @@
-import { createContainer } from 'unstated-next'
+import { createContext } from 'react'
 import UserAuth from './userAuth.store'
 
 
-function globalHook(): any {
+export function useGlobal() {
     let userAuth = UserAuth()
     return { userAuth }
 }
 
-let GlobalHook = createContainer(globalHook)
+let a:any
+const Store = createContext(a)
 
 
-export default GlobalHook
+export default Store
