@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.scss';
 import * as serviceWorker from './serviceWorker';
+import GlobalHook from './app/store'
+import { useRoutes } from 'hookrouter';
+import routes from './routing';
+const Index = () => {
+  const routeResult = useRoutes(routes);
+  return (
+    <React.StrictMode>
+      <GlobalHook.Provider>
+        {routeResult}
+      </GlobalHook.Provider>
 
+    </React.StrictMode>
+  )
+}
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Index />,
   document.getElementById('root')
 );
 

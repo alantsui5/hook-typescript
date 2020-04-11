@@ -1,12 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import Counter from './features/counter/counter'
+import User from './features/user/user'
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Counter />
+        <User />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -16,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React & Hooks
         </a>
       </header>
     </div>
