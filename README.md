@@ -12,8 +12,9 @@ degit https://github.com/alantsui5/CRA-reacthooks-typescript projectName
 * Styling Solution: SCSS (still evaluating other solution like JSS and Styled components)
 * Animation: SCSS (still investigating other solution)
 * PWA: CRA default
+* Form: Form Hooks
 * Proxy: NULL
-* Form: NULL
+
 
 ## Folder Structure
 * Ducks Pattern(Recommend by Facebook)
