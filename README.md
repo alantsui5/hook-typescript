@@ -1,5 +1,21 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## How to install this template
+```
+degit https://github.com/alantsui5/CRA-reacthooks-typescript projectName
+```
+
+## The Dependencies other than CRA default
+
+* Router: hookrouter
+* Async Middleware: @umijs/hooks
+* Global State: unstated-next & react hooks
+* Styling Solution: SCSS
+
+## Folder Structure
+* Ducks Pattern(Recommend by Facebook)
+
 ## Available Scripts
 
 In the project directory, you can run:
