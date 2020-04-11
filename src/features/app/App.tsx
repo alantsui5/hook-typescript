@@ -2,7 +2,6 @@ import React from 'react';
 import logo from '../../logo.svg';
 import './App.scss';
 import Counter from '../counter/counter'
-import User from '../user/user'
 function App() {
   return (
     <div className="App">
