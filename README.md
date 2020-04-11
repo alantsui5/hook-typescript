@@ -5,10 +5,15 @@ degit https://github.com/alantsui5/CRA-reacthooks-typescript projectName
 
 ## The Dependencies other than Create React App default
 
-* Router: hookrouter
-* Async Middleware: @umijs/hooks
-* Global State: unstated-next & react hooks
-* Styling Solution: SCSS
+* Core: React ^16.8
+* Router: hook router
+* Async Middleware: @umijs/hooks (will be replaced with react-query later)
+* Global State: unstated-next & react hooks (Investigating the possibilities od other solutions)
+* Styling Solution: SCSS (still evaluating other solution like JSS and Styled components)
+* Animation: SCSS (still invastigating other solution)
+* PWA: CRA default
+* Test: Jest
+* Proxy: NULL
 
 ## Folder Structure
 * Ducks Pattern(Recommend by Facebook)
