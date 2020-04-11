@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react'
-const App = lazy(() => import('./App'));
+const App = lazy(() => import('./features/app/App'));
 const User = lazy(() => import('./features/user/user'));
 
 const Loading = () => {
