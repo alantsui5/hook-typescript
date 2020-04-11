@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
-import GlobalHook from './app/store'
+import GlobalHook from './store/store'
 import { useRoutes } from 'hookrouter';
 import routes from './routing';
 const Index = () => {

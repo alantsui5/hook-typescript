@@ -1,4 +1,4 @@
-import GlobalHook from '../../app/store'
+import GlobalHook from '../../store/store'
 import { useContainer } from 'unstated-next'
 
 export default () => {
