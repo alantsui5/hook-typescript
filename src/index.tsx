@@ -4,7 +4,7 @@ import './index.scss';
 import * as serviceWorker from './serviceWorker';
 import GlobalHook from './store/store'
 import { useRoutes } from 'hookrouter';
-import routes from './routing';
+import routes from './Routing';
 const Index = () => {
   const routeResult = useRoutes(routes);
   return (
