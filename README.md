@@ -1,6 +1,9 @@
 ## How to install this template
 ```
-degit https://github.com/alantsui5/CRA-reacthooks-typescript projectName
+yarn degit https://github.com/alantsui5/CRA-reacthooks-typescript projectName
+```
+```
+npx degit https://github.com/alantsui5/CRA-reacthooks-typescript projectName
 ```
 
 ## The Dependencies 
