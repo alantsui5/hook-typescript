@@ -7,7 +7,6 @@ export function useGlobal() {
     return { userAuth }
 }
 
-let a:any
 const Store = createContext(a)
 
 
