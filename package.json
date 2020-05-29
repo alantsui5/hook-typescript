@@ -1,46 +1,32 @@
 {
-  "name": "hooks",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/hookrouter": "^2.2.1",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "@umijs/hooks": "^1.9.0",
-    "hookrouter": "^1.2.3",
-    "node-sass": "^4.13.1",
-    "prettier": "^2.0.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-hook-form": "^5.3.1",
-    "react-scripts": "3.4.1",
-    "typescript": "~3.7.2"
-  },
+  "name": "with-typescript",
+  "version": "1.0.0",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "@material-ui/styles": "^4.10.0",
+    "@types/react-transition-group": "^4.4.0",
+    "next": "latest",
+    "next-pwa": "^2.4.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-hook-form": "^5.7.2",
+    "react-transition-group": "^4.4.1",
+    "sass": "^1.26.5",
+    "swr": "^0.2.2"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "next-images": "^1.4.0",
+    "prettier": "2.0.5",
+    "typescript": "3.7.3"
+  },
+  "license": "ISC"
 }

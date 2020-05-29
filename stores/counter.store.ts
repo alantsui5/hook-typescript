@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useRequest } from '@umijs/hooks';
+import useSWR from 'swr';
 
 export default () => {
     const [count, setCount] = useState<number>(0)
@@ -13,17 +13,10 @@ export default () => {
         setCount(count + amount)
     }
 
-    const incrementDelay = (amount: number) =>
+    const incrementAsync = (amount: number) =>
         setTimeout(() => {
             incrementByAmount(amount)
         }, 1000)
-
-
-    // Register & run Async Middleware
-    const incrementAsync = useRequest(incrementDelay, {
-        manual: true
-    })
-
-
+    
     return { count, increment, decrement, incrementByAmount, incrementAsync }
-}
+} 

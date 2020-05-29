@@ -1,6 +1,6 @@
-import useCounter from './counter.hook'
-import React, { useState } from 'react'
-import style from './counter.module.scss'
+import useCounter from 'stores/counter.store'
+import { useState } from 'react'
+import style from 'styles/counter.module.scss'
 
 export default () => {
     const { count, increment, decrement, incrementByAmount, incrementAsync } = useCounter()
@@ -31,7 +31,7 @@ export default () => {
                 </button>
                 <button
                     className={style.asyncButton}
-                    onClick={() => incrementAsync.run(Number(amount) || 0)}
+                    onClick={() => incrementAsync(Number(amount) || 0)}
                 >
                     Add Async
             </button>

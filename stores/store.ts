@@ -7,7 +7,9 @@ export function useGlobal() {
     return { userAuth }
 }
 
-const Store = createContext(a)
+let placeholder:any
+
+const Store = createContext(placeholder)
 
 
 export default Store
