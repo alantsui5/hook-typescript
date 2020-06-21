@@ -1,9 +1,9 @@
 ## How to install this template
 ```
-yarn degit https://github.com/alantsui5/react-typescript-hooks-template
+yarn degit https://github.com/alantsui5/hook-typescript
 ```
 ```
-npx degit https://github.com/alantsui5/react-typescript-hooks-template 
+npx degit https://github.com/alantsui5/hook-typescript
 ```
 
 ## The Dependencies 
