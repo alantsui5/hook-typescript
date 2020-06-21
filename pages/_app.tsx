@@ -4,7 +4,7 @@ import favIcon from 'public/favicon.ico'
 
 import 'normalize.css';
 
-const MyApp = ({ Component, pageProps }) => {
+const MyApp = ({ Component, pageProps }:{Component:any, pageProps:any}) => {
 	const global = useGlobal();
   return (
     <div>
