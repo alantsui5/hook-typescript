@@ -1,6 +1,6 @@
 {
-  "name": "with-typescript",
-  "version": "1.0.0",
+  "name": "react-boilerplate",
+  "version": "0.0.2",
   "scripts": {
     "dev": "next",
     "build": "next build",
