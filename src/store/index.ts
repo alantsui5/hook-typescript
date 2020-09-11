@@ -1,5 +1,5 @@
 import { createContext } from 'react'
-import UserAuth from './user-auth'
+import UserAuth from './userAuth'
 
 export function useGlobal() {
   const userAuth = UserAuth()
