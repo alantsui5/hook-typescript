@@ -57,7 +57,7 @@ Execute [`degit`](degit) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](h
 ```bash
 npx degit https://github.com/alantsui5/hook-typescript
 # or
-yarn degit --example https://github.com/alantsui5/hook-typescript
+yarn degit https://github.com/alantsui5/hook-typescript
 ```
 
 ### Using `cli.py` to generate code
