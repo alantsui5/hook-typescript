@@ -1,5 +1,5 @@
 import { AppProps } from 'next/app'
-import Stores, {useGlobal} from '../stores'
+import Stores, {useGlobal} from '../store'
 
 import '../styles.css'
 
