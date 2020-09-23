@@ -5,10 +5,11 @@ import '../styles.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const global = useGlobal();
-  return 
-  <Stores.Provider value={global}>
-    <Component {...pageProps} />
-  </Stores.Provider>
+  return (
+    <Stores.Provider value={global}>
+      <Component {...pageProps} />
+    </Stores.Provider>
+   )
 }
 
 export default MyApp
